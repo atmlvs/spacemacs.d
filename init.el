@@ -67,8 +67,8 @@ values."
             shell-default-position 'bottom)
      ;; command-log
      ;; dash
-     (git :variables
-          git-magit-status-fullscreen t)
+     ;; (git :variables
+     ;;      git-magit-status-fullscreen t)
      (version-control :variables version-control-diff-tool 'diff-hl)
      ;; elfeed
      ranger
@@ -83,7 +83,7 @@ values."
      ;; prodigy
      ;; (ibuffer :variables ibuffer-group-buffers-by nil)
      (chinese :variables chinese-enable-youdao-dict t)
-     emoji
+     ;; emoji
      ;; erc
      ;; eyebrowse
      ;; (evil-snipe :variables evil-snipe-enable-alternate-f-and-t-behaviors t)
